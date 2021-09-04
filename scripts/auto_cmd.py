@@ -2,11 +2,9 @@ import os
 import signal
 import subprocess
 
-# Making sure to use virtual environment libraries
 activate_this = "/home/ubuntu/tensorflow/bin/activate_this.py"
 exec(open(activate_this).read(), dict(__file__=activate_this))
 
-# Change directory to where your Flask's app.py is present
 os.chdir("/home/ubuntu/Desktop/Medium/keras-and-tensorflow-serving/flask_server")
 tf_ic_server = ""
 flask_server = ""
