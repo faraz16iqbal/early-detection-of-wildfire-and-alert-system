@@ -9,26 +9,26 @@ const Landing = () => {
           <img src="../images/amu.png" alt="AMU" />
         </a>
       </div>
-      <div class="wrapper">
-        <div class="fixed bg-1">
+      <div class="wrapper1">
+        <div class="fixed1 bg-1">
           <h4>Fuego α</h4>
           <Link to="/model">
             <button id="model">Model</button>
           </Link>
           <h1>31 percent!</h1>
-          <h5>Scroll Down!</h5>
+          <h5>Scroll1 Down!</h5>
         </div>
-        <div class="scroll">
+        <div class="scroll1">
           <h3>
             Forests cover 31 percent of the world's land surface, just over 4
             billion hectares. The forest cover of India is 712,249 square
             kilometers (21.67 percent of India's total geographical area).
           </h3>
         </div>
-        <div class="fixed bg-2">
+        <div class="fixed1 bg-2">
           <h1>Diverse Ecosystem</h1>
         </div>
-        <div class="scroll">
+        <div class="scroll1">
           <h3>
             More than 10 million different species of animals, plants, fungi,
             and micro-organisms inhabit the Earth. They and the habitats in
@@ -45,10 +45,10 @@ const Landing = () => {
             industrial value.
           </h3>
         </div>
-        <div class="fixed bg-3">
+        <div class="fixed1 bg-3">
           <h1>Forest fires</h1>
         </div>
-        <div class="scroll">
+        <div class="scroll1">
           <h3>
             The most common hazard in forests is forests fire. Forest fires are
             as old as the forests themselves. They pose a threat not only to the
@@ -60,10 +60,10 @@ const Landing = () => {
             spark.
           </h3>
         </div>
-        <div class="fixed bg-4">
+        <div class="fixed1 bg-4">
           <h1>Australia bushfire</h1>
         </div>
-        <div class="scroll">
+        <div class="scroll1">
           <h3>
             The year 2020 started with massive Australian fires. An area about
             the size of South Korea, roughly 25.5 million acres, has been
@@ -74,10 +74,10 @@ const Landing = () => {
             hazardous level of 200!.
           </h3>
         </div>
-        <div class="fixed bg-5">
+        <div class="fixed1 bg-5">
           <h1>MODIS</h1>
         </div>
-        <div class="scroll">
+        <div class="scroll1">
           <h3>
             MODIS(Moderate Resolution Imaging Spectro-radiometer) satellite is
             used by almost every country to detect fires. It is somewhat

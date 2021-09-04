@@ -95,15 +95,15 @@ body {
   height: 100%;
 }
 
-.wrapper {
+.wrapper1 {
   height: 100%;
 }
 
-.fixed {
+.fixed1 {
   height: 100%;
 }
 
-.fixed {
+.fixed1 {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -146,24 +146,24 @@ body {
 }
 
 @import url("https://fonts.googleapis.com/css?family=Quicksand");
-.wrapper {
+.wrapper1 {
   font-family: "Quicksand", sans-serif;
   line-height: 1.5;
   word-spacing: 4px;
   letter-spacing: 1px;
 }
 
-.fixed {
+.fixed1 {
   color: white;
 }
 
-.scroll {
+.scroll1 {
   font-size: 20px;
   padding: 10px 70px;
   color: #858585;
 }
 
-.fixed {
+.fixed1 {
   width: 100%;
   text-align: center;
   display: table;
@@ -223,7 +223,7 @@ body {
   transform: scale(1.1);
 }
 
-.scroll {
+.scroll1 {
   background-color: #0f0f0a;
 }
 
@@ -234,9 +234,9 @@ body {
   text-align: center;
   height: 50px;
   width: 100px;
-  float: right;
   padding: 12px;
   font-size: 20px;
+  float: right;
   border-radius: 5px;
   background-color: #229d37;
   border: none;
@@ -249,4 +249,59 @@ body {
 .bg-1 button:hover {
   opacity: 1;
   transition-duration: 0.2s;
+}
+
+.center-div {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 24rem;
+  height: 24rem;
+  background-color: rgba(201, 198, 198, 0.364);
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  box-sizing: border-box;
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 0.6em;
+  color: #e74c3c;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 20px;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.btn:hover .btn:focus {
+  color: #fff;
+  outline: 0;
+}
+
+.first {
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+.first:hover {
+  box-shadow: 0 0 40px 40px #e74c3c inset;
+  color: white;
+}
+
+.text1 {
+  display: inline;
 }

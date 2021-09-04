@@ -5,12 +5,10 @@ import Model from "./screens/Model";
 function App() {
   return (
     <Router>
-      <div className="App">
-        <Switch>
-          <Route path="/model" component={Model} />
-          <Route path="/" exact component={Landing} />
-        </Switch>
-      </div>
+      <Switch>
+        <Route path="/model" component={Model} />
+        <Route path="/" exact component={Landing} />
+      </Switch>
     </Router>
   );
 }
